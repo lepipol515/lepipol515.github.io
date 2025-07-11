@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mega Gym</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mega Gym</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gimnasios.html">Gimnasios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="planes.html">Planes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <a class="btn btn-primary" href="login.html" role="button">
+                            Iniciar/Registrarte</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="hero" class="hero section dark-background">
+
+            <img src="./img/login.jpg" alt="">
+
+            <div class="container ">
+                <div class="position row col  ">
+                    <div class=" row col-lg-4 col-md-6 col-10 justify-content-center">
+                        <form class="row-cols-1 justify-content-center ">
+                            <div class="row g-2">
+                                <h2>Acceder a la cuenta</h2>
+                            </div>
+
+                            <div class="col  ">
+                                <label for="inputEmail4" class="form-label">Correo:</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+
+                            <div class="col">
+                                <label for="inputPassword4" class="form-label">Contraseña:</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-4 col-md-5 col-lg-6 col-xl-5 py-3 ">
+                                    <button type="submit" class="btn btn-primary ">Iniciar</button>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <h3><a id="a" href="#"> Registrarte</a></h3>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <a class="navbar-brand" href="index.html">Mega Gym</a>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Mega Gym</h5>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Libro de Reclamciones</a></p>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Politicas de Datos</a></p>
+                    <p><a href="#" class="text-white" style="text-decoration: none;">Derechos ARCOS</a></p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold ">Contactos</h5>
+                    <p>Av. Óscar R. Benavides 669, Lima 15082</p>
+                    <p>+51 900 900 900</p>
+                    <p>megagym@gmail.com</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold ">REDES</h5>
+                    <div class="container-icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

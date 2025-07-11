@@ -1,0 +1,63 @@
+.navbar-brand{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  padding: auto;
+}
+.nav-item{
+    font-size: 18px;
+    padding: 0 15px;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+   background-color: yellow;
+   color: black;
+   border: none;
+   font-weight: 700;
+   padding:   9px 30px;
+}
+
+@media(max-width: 990px) {
+   .navbar-nav{
+      display: flex;
+      align-items: center;
+   }
+
+}
+
+.container-icon a i {
+   font-size: 30px;
+   padding: 15px;
+   color: white;
+}
+
+
+
+/*main*/
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.col{
+ padding: 0 50px ;
+}
+
+@media (max-width: 1025px){
+    .col{
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 720px){
+    .col{
+        padding: 0 50px;
+    }
+    p{
+        text-align: justify;
+    }
+}

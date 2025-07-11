@@ -1,0 +1,95 @@
+.navbar-brand{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  padding: auto;
+}
+
+.nav-item{
+    font-size: 18px;
+    padding: 0 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn{
+   background-color: yellow;
+   color: black;
+   border: none;
+   font-weight: 700;
+   padding:   9px 30px;
+}
+
+@media(max-width: 420px){
+   body{
+      max-width:100% ;
+   }
+   #text{
+      flex-basis: 50%;
+      padding:15px ;
+   }
+   #text p{
+      font-size: 45px ;
+      color: yellow;
+   }
+}
+
+@media(max-width: 990px) {
+   .navbar-nav{
+      display: flex;
+      align-items: center;
+   }
+
+}
+
+.container-icon a i {
+   font-size: 30px;
+   padding: 15px;
+   color: white;
+}
+
+
+
+
+/*main*/
+.card{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.95px 2.95px 3.6px;
+}
+
+
+.card-body{
+    text-align: center;
+    padding: 20px 0;
+    background-color: yellow;
+    border-radius: 20px;
+
+}
+
+h4{
+    padding: 40px 30px;
+    font-size: 20x;
+    font-weight: bold;
+}
+
+.des{
+    font-weight: lighter;
+}
+
+.price{
+    font-size: 30px;
+}
+
+
+.col{
+ padding: 0 60px ;
+}
+
+@media (max-width: 1025px){
+    .col{
+        padding: 0 20px;
+    }
+}
